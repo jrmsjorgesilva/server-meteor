@@ -10,7 +10,8 @@
     "build:start": "tsc",
     "lint": "eslint ./src ./test --ext .ts",
     "lint:fix": "eslint ./src ./test --ext .ts --fix",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "parrot": "terminal-parrot",
+    "test": "echo 'no test available'",
     "test:functional": "jest --projects ./test --forceExit --runInBand"
   },
   "keywords": [],
